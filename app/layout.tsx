@@ -45,10 +45,11 @@ export default function RootLayout({
           <nav className="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
             <Link href="/" className="flex items-center gap-3">
               <Image
-                src="/images/RimrockEquestionLogo-300x66.jpg"
+                src="/images/rimrock-logo-text.png"
                 alt="Rimrock Equestrian"
-                width={200}
-                height={44}
+                width={180}
+                height={139}
+                className="h-10 w-auto"
                 priority
               />
             </Link>
