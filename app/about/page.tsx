@@ -47,12 +47,22 @@ function TrainerCard({
 export default function AboutPage() {
   return (
     <>
-      <section className="bg-warm-beige py-16">
-        <div className="max-w-6xl mx-auto px-6">
-          <h1 className="text-4xl font-bold text-green-dark mb-4">
+      <section className="relative bg-warm-beige overflow-hidden">
+        <div className="absolute inset-0">
+          <Image
+            src="/images/119902257_125647692608787_6387714453986712871_n.jpg"
+            alt="Horse grazing in pasture at Rimrock Equestrian"
+            fill
+            priority
+            className="object-cover"
+          />
+          <div className="absolute inset-0 bg-gradient-to-r from-green-dark/80 via-green-dark/60 to-green-dark/40" />
+        </div>
+        <div className="relative max-w-6xl mx-auto px-6 py-20">
+          <h1 className="text-4xl font-bold text-white mb-4 drop-shadow-lg">
             Meet Our Trainers
           </h1>
-          <p className="text-lg text-foreground/60 max-w-2xl">
+          <p className="text-lg text-white/85 max-w-2xl drop-shadow">
             Our experienced team brings decades of knowledge in eventing and
             dressage to help you and your horse succeed.
           </p>

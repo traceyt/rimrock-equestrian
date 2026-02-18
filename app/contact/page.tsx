@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 
 export const metadata: Metadata = {
   title: "Contact Us — Rimrock Equestrian",
@@ -9,12 +10,22 @@ export const metadata: Metadata = {
 export default function ContactPage() {
   return (
     <>
-      <section className="bg-warm-beige py-16">
-        <div className="max-w-6xl mx-auto px-6">
-          <h1 className="text-4xl font-bold text-green-dark mb-4">
+      <section className="relative overflow-hidden">
+        <div className="absolute inset-0">
+          <Image
+            src="/images/119843945_125647592608797_2589247962989354219_n.jpg"
+            alt="Fall scenery at Rimrock Equestrian"
+            fill
+            priority
+            className="object-cover"
+          />
+          <div className="absolute inset-0 bg-gradient-to-r from-green-dark/80 via-green-dark/60 to-green-dark/40" />
+        </div>
+        <div className="relative max-w-6xl mx-auto px-6 py-20">
+          <h1 className="text-4xl font-bold text-white mb-4 drop-shadow-lg">
             Contact Us
           </h1>
-          <p className="text-lg text-foreground/60 max-w-2xl">
+          <p className="text-lg text-white/85 max-w-2xl drop-shadow">
             We&apos;d love to hear from you. Reach out by phone, email, or stop
             by the barn.
           </p>
