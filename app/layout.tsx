@@ -49,7 +49,7 @@ export default function RootLayout({
                 alt="Rimrock Equestrian"
                 width={180}
                 height={139}
-                className="h-12 w-auto"
+                className="h-20 w-auto"
                 priority
               />
             </Link>
