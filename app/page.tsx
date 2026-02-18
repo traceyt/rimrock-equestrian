@@ -64,34 +64,38 @@ export default function Home() {
             </p>
           </div>
           <div className="grid grid-cols-2 gap-4">
-            <Image
-              src="/images/RickyDH-1-PirateShipA-150x150.jpg"
-              alt="Cross-country jump"
-              width={150}
-              height={150}
-              className="rounded-lg w-full h-auto"
-            />
-            <Image
-              src="/images/RickyDH-2-FlyersA-150x150.jpg"
-              alt="Show jumping"
-              width={150}
-              height={150}
-              className="rounded-lg w-full h-auto"
-            />
-            <Image
-              src="/images/RickyDH-3-DreassageA-150x150.jpg"
-              alt="Dressage"
-              width={150}
-              height={150}
-              className="rounded-lg w-full h-auto"
-            />
-            <Image
-              src="/images/RickyDH-4-RollTopA-150x150.jpg"
-              alt="Roll top jump"
-              width={150}
-              height={150}
-              className="rounded-lg w-full h-auto"
-            />
+            <div className="relative aspect-square rounded-lg overflow-hidden">
+              <Image
+                src="/images/SUE02285.jpeg"
+                alt="Todd Trewin and Cooley High Society jumping cross-country"
+                fill
+                className="object-cover"
+              />
+            </div>
+            <div className="relative aspect-square rounded-lg overflow-hidden">
+              <Image
+                src="/images/IMG_0189.jpeg"
+                alt="Todd Trewin and Cooley High Society show jumping"
+                fill
+                className="object-cover"
+              />
+            </div>
+            <div className="relative aspect-square rounded-lg overflow-hidden">
+              <Image
+                src="/images/Aspen Farms_20240914_MB6_4685.jpeg"
+                alt="Todd Trewin and Cooley High Society at the water complex"
+                fill
+                className="object-cover"
+              />
+            </div>
+            <div className="relative aspect-square rounded-lg overflow-hidden">
+              <Image
+                src="/images/newt_ad_1stphoto.jpeg"
+                alt="Todd Trewin and Cooley High Society jumping a cross-country table"
+                fill
+                className="object-cover"
+              />
+            </div>
           </div>
         </div>
       </section>

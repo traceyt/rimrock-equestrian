@@ -73,7 +73,7 @@ export default function AboutPage() {
         <TrainerCard
           name="Todd Trewin"
           specialty="Eventing Trainer"
-          image="/images/ToddBike-682x1024.jpg"
+          image="/images/IMG_0189.jpeg"
           bio="Todd Trewin has been training horses and riders for over 20 years at Rimrock Equestrian in Fall City, WA. He specializes in eventing, working with horses and riders from the introductory levels through Preliminary. Todd's philosophy centers on building a strong partnership between horse and rider, with an emphasis on confidence, safety, and having fun along the way. Todd has competed extensively in the Pacific Northwest eventing circuit. He is known for producing well-rounded, confident horses that excel in all three phases — dressage, cross-country, and show jumping."
         />
 
